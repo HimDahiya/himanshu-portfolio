@@ -98,27 +98,30 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
+  {
+    bgImage: 'work-1.png',          //  <- string path
+    title:   'Toy Store Revenue Analytics',
+    description: 'Power BI · SQL Data Modeling',
+    code:    'https://github.com/HimDahiya/Toy_Manufacturer_In_Mexico',
+  },
+  {
+    bgImage: 'work-2.png',
+    title:   'AI Driven Supply Chain Optimisation for Montreal Transit Dynamics',
+    description: 'AnyLogic System-Dynamics · Python (Scikit-learn)',
+    code:    'https://github.com/HimDahiya/Optimizing-supply-chains-with-predictive-analytics',
+  },
+  {
+        title: 'Data Science Job Market Trends ',
+        description: 'Power Bi · Data Analytics',
         bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        code: ' https://github.com/HimDahiya/data-science-salary-trends'},
+  {
+        title: 'Date Fruit Quality Classifier',
+        description: 'Python(TensorFlow) PCA/Dimensionality Reduction',
         bgImage: '/work-4.png',
-    },
-]
+        code: 'https://github.com/HimDahiya/Classification-of-Date-fruit-using-PCA-and-ML'
+  },
+];
 // ─── Services cards (Business / Data focus) ────────────────
 export const serviceData = [
     {
