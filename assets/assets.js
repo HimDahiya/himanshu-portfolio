@@ -112,7 +112,7 @@ export const workData = [
   },
   {
         title: 'Data Science Job Market Trends ',
-        description: 'Power Bi · Data Analytics',
+        description: 'Power BI · Data Analytics',
         bgImage: '/work-3.png',
         code: ' https://github.com/HimDahiya/data-science-salary-trends'},
   {

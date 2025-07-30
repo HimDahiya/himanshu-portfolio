@@ -36,8 +36,9 @@ const Work = ({ isDarkMode }) => (
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.7, duration: 0.5 }}
     >
-      Welcome to my web development portfolio! Explore a collection of projects
-      showcasing my expertise in front-end development.
+    A snapshot of the work I’m proudest of—AI-driven sales forecasting, a
+    cloud-native supply-chain dashboard, and two fast, responsive web apps—all
+    built to turn complex data into clear, actionable stories.
     </motion.p>
 
     {/* ───── Project grid ─────────────────────────────────── */}
