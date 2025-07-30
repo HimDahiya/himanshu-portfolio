@@ -6,7 +6,6 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
@@ -35,20 +34,42 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import docker from './icons8-docker-50.png';
+import powerbi from './powerbi.png';
+import pandas from './pandas.png';
+import tableau from './tableau.png';
+import aws from './aws.png';    
+import jira from './jira.png';  
+import react from './react.png';
+import dashboard_icon from './dashboard.png';
+import etl_icon from './etl.png';  
+import analytics_icon from './analytics.png';
+import pm_icon from './project.png';
+
 
 export const assets = {
     user_image,
+    dashboard_icon,
+    etl_icon,   
+    analytics_icon,
+    pm_icon,
+    docker,
+    powerbi,
+    pandas,
+    tableau,
+    aws,
+    jira,
+    react,
+    vscode,
+    figma,
+    git,
+    mongodb,
     code_icon,
     code_icon_dark,
     edu_icon,
     edu_icon_dark,
     project_icon,
     project_icon_dark,
-    vscode,
-    firebase,
-    figma,
-    git,
-    mongodb,
     right_arrow_white,
     logo,
     logo_dark,
@@ -98,20 +119,55 @@ export const workData = [
         bgImage: '/work-4.png',
     },
 ]
-
+// ─── Services cards (Business / Data focus) ────────────────
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
-]
+    {
+      icon: assets.dashboard_icon,       
+      title: 'Data & BI Dashboards',
+      description:
+        'Design, develop and test Tableau / Power BI dashboards that turn KPIs into board-ready stories.',
+    },
+    {
+      icon: assets.etl_icon,
+      title: 'ETL & Data Engineering',
+      description:
+        'Build zero-touch Snowflake and AWS pipelines that cleanse, model and govern data at scale.',
+    },
+    {
+      icon: assets.analytics_icon,
+      title: 'Advanced Analytics',
+      description:
+        'Deploy Python & SQL models for forecasting, risk scoring and cost-benefit analysis.',
+    },
+    {
+      icon: assets.pm_icon,
+      title: 'Requirements & PMO',
+      description:
+        'Drive SDLC / Agile projects—BRD, FRD, Jira backlog, stakeholder workshops & change enablement.',
+    },
+  ];
+  
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Masters of Engineering in Quality Systems \n\nBachleors of Technology in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tech Stack', description: 'Python, SQL, JavaScript, Next Js, UNIX/Linux Scripting' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Certifications', description: 'ITIL- 4 Foundation, \nAWS Certified Cloud Practitioner, \nBI Foundations with SQL ETL and Data Warehousing Specialization - IBM' }
 ];
 
+
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
-];
+    { icon: vscode,  name: 'VS Code' },
+    { icon: docker,  name: 'Docker' },
+    { icon: react,   name: 'React' },
+    { icon: aws,     name: 'AWS' },
+    { icon: mongodb, name: 'MongoDB' },
+    { icon: figma,   name: 'Figma' },
+    { icon: pandas,  name: 'Pandas' },  
+    { icon: tableau, name: 'Tableau' },
+    { icon: powerbi, name: 'Power BI' },
+    { icon: git,     name: 'Git' },
+  ];
+  
+/*export const toolsData = [
+    assets.vscode, assets.mongodb, assets.figma, assets.git, assets.docker, assets.powerbi , assets.pandas, assets.tableau, assets.aws, assets.jira, assets.react
+];*/
