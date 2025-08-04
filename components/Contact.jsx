@@ -1,4 +1,6 @@
-'use client';
+"use client";
+import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
@@ -21,7 +23,7 @@ const Contact = () => {
       body: data,
     });
     const json = await res.json();
-
+    track("contact_submit");
     setResult(json.success ? 'Thanks! I’ll reply soon.' : `Error: ${json.message}`);
     if (json.success) form.reset();
   };
