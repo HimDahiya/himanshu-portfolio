@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { track } from "@vercel/analytics";
-import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 import { assets } from '@/assets/assets';
