@@ -69,7 +69,17 @@ export default function RootLayout({ children }) {
       >
         {children}
         <Analytics /> {/* Vercel analytics – keep at very end */}
-       
+        import { track } from '@vercel/analytics';
+
+<a
+  href="/resume.pdf"
+  download
+  onClick={() => track('resume_download')}
+  className="…"
+>
+  Download Résumé
+</a>
+
 <Script
   id="ld-json"
   type="application/ld+json"
